@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">To-Do List</h1>
+   <center> <div class="input-container">
+    <input type="text" id="taskInput" placeholder="Enter your task...">
+    <button onclick="addTask()">Add Task</button>
+  </div></center>
+    <div class="lists-container">
+      <div class="list">
+        <h2>Pending Tasks</h2>
+        <ul id="pendingList"></ul><br>
+      </div>
+      <div class="list">
+        <h2>Completed Tasks</h2>
+        <ul id="completedList"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

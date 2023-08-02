@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .lists-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .list {
+    flex: 1;
+    max-width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    padding: 10px;
+    margin: 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    color: #666;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.2s ease;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .completed:hover {
+    text-decoration: none;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 70%;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #e91919;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #7b3737;
+  }
+  
+  .edit-btn,
+  .complete-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .complete-btn {
+    background-color: #4CAF50;
+  }
+  
